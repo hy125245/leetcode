@@ -10,7 +10,10 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        for(int i = 0; i < s.size())
+        for(int i = 0; i < s.size(); i++)
+        {
+            
+        }
     }
 };
 // @lc code=end
