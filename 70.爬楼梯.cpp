@@ -8,7 +8,17 @@
 class Solution {
 public:
     int climbStairs(int n) {
-        
+        int first = 0;
+        int second = 0;
+        int result = 1;
+        while(n > 0)
+        {
+            first = second;
+            second = result;
+            result = first + second;
+            n--;
+        }
+        return result;
     }
 };
 // @lc code=end
